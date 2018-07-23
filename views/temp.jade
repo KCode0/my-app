@@ -1,2 +1,9 @@
 html
- title Hello
+ head
+    title= _title
+ body
+    h1 Hello Jade
+    ul
+        -for(var i=0; i<5; i++)
+            li coding
+    div= time
